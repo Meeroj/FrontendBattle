@@ -1,0 +1,359 @@
+@font-face {
+    font-family: "Manrope";
+    src: url("./Manrope/Manrope-VariableFont_wght.ttf");
+
+    }
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Manrope';
+}
+
+body{
+    background: #1c1c1c;
+}
+
+.menu__responsive {
+    display: none;
+}
+/* Header  */
+
+.header {
+    padding: 2rem 8%;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav__links ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.nav__links ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #b7b7b7;
+}
+
+.nav__links ul li a.active {
+    color: #fff;
+}
+
+
+.language__picker {
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: 1px solid #fff;
+}
+
+.language__picker span {
+    font-size: 0.8rem;
+    color: #fff;
+}
+.about-header_hero{
+    height: 80vh;
+}
+.about-header_hero-title{
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 50px;
+    color: white;
+}
+
+.hero-img{
+    margin-top: 30px;
+}
+
+.about-header_hero-img{
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+.btn-group{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    bottom: -20px;
+    z-index: 10;
+}
+.about-header_btn1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    font-size:16px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: none;
+    background: #0040DD;
+    color: white;
+}
+
+.about-header_btn2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    font-size:16px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: none;
+}
+
+.about-header_hero_text1{
+    width: 80%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 44px;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.about-header_hero_text2{
+    width: 80%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 44px;
+    color: white;
+}
+
+.galery{
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 70px;
+}
+
+hr{
+    display: block;
+    width: 100%;
+    border: 1px solid gray;
+    margin: 150px 0;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+
+}
+.footer .footer-links{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /* background-color: red; */
+}
+
+.footer form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:start;
+    color:  grey;
+    
+
+}
+
+.footer form input{
+    max-width: 280px;
+    width: 100%;
+    height: auto;
+    padding: 10px 15px;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 18px;
+    margin-top: 16px;
+    background-color: black;
+    color: rgb(157, 153, 153);
+    font-weight: 700;
+}
+.footer button{
+    padding: 8px  10px;
+    margin-top: 15px;
+    border-radius: 18px;
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+    border: none;
+    outline: none;
+}
+.footer button i{
+    width: 15px;
+    height: 15px;
+}
+
+/* INPUT TUGADI */
+
+.serv{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.serv ul li{
+    margin-top: 10px;
+    list-style: none;
+    color: white;
+}
+.serv ul li a{
+    text-decoration: none;
+    color: grey;
+    font-weight: 800;
+    font-size: 18px;
+}
+/* .serv ul li a:hover{
+    color: blue;
+    text-decoration: underline;
+} */
+
+/* SERVICE TUGADI  */
+
+.port{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.port ul li{
+    margin-top: 10px;
+    list-style: none;
+    color: white;
+}
+.port ul li a{
+    text-decoration: none;
+    color: grey;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+/* PORTFOLIO TUGADI */
+
+.abo{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.abo ul li{
+    margin-top: 10px;
+    list-style: none;
+    color: white;
+}
+.abo ul li a{
+    text-decoration: none;
+    color: grey;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+/* ABOUT US TUGADI */
+
+.cont{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.cont ul li{
+    margin-top: 10px;
+    list-style: none;
+    color: white;
+}
+.cont ul li a{
+    text-decoration: none;
+    color: grey;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+/* CONTACT TUGADI */
+
+.lab{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.lab ul li{
+    margin-top: 10px;
+    list-style: none;
+    color: white;
+}
+.lab ul li a{
+    text-decoration: none;
+    color: grey;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+/* LABEL TUGADI */
+
+.container h2{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1200px) {
+    .footer{
+      display: flex;
+      flex-wrap: wrap-reverse;
+    }  
+  }
+  @media screen and (max-width:375px) {
+      .container{
+          padding: 5px;
+          /* display: flex;
+          align-items: center; */
+      }
+      .footer{
+          display: flex;
+          flex-direction: column-reverse;
+          /* flex-direction: row-reverse; */
+          /* flex-direction: row; */
+          justify-content: space-evenly;
+          align-items: center;
+          padding: 0px;
+      
+      }
+      
+      .footer-links{
+          width: 75%;
+          display: flex;
+          flex-wrap: wrap;
+      }
+  }

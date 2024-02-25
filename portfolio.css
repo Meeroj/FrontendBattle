@@ -1,0 +1,38 @@
+.portfolio__section {
+    width: 100%;
+    padding: 2rem 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.portfolio__section > h2 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.images__container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.img__wrapper {
+    width: 48%;
+}
+
+.img__wrapper img {
+    width: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 375px) {
+   .images__container {
+    flex-direction: column;
+   }
+
+   .img__wrapper {
+    width: 100%;
+   }
+}

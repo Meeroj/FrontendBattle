@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+     <!-- Styles  -->
+     <link rel="stylesheet" href="./home.css">
+     <link rel="stylesheet" href="./about.css">
+ 
+
+    <title>About Our</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./about.css">
+    <style>    
+        .swiper {
+          width: 100%;
+          height: 100%;
+        }
+    
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+    
+        .swiper-slide img {
+          display: block;
+          width: 60vw;
+          height: auto;
+          max-height: 80vh;
+          object-fit: cover;
+        }
+      </style>
+</head>
+<body>
+      <!--========== HEADER ==========-->
+      <header class="header" id="header">
+        <nav class="nav">
+            <div class="form__logo">
+                <a href="index.html">
+                    <img src="./images/form__logo.png" />
+                </a>
+            </div>
+            <div class="nav__links" id="navLinks">
+                <ul>
+                    <li>
+                        <a onclick="" href="services.html" >Services</a>
+                    </li>
+                    <li>
+                        <a href="protfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="active">About us</a>
+                    </li>
+                    <li>
+                        <a href="form.html">Form</a>
+                    </li>
+                </ul>
+                <div class="language__picker">
+                    <span>Uz</span>
+                    <span>Ru</span>
+                    <span>En</span>
+                </div>
+            </div>
+            <div class="menu__responsive" id="menuResponsive">
+                <img src="./images/menu-responsive.png" />
+            </div>
+        </nav>
+
+
+
+
+
+        <div class="about-header_hero">
+            <h2 class="about-header_hero-title">Biz Haqimizda</h2>
+            <div class="hero-img">
+                <div class="btn-group">
+                    <button class="about-header_btn1">Bog’lanish<img src="./images/VectorRight.png" alt=""></button>
+                    <button class="about-header_btn2">Breif to’ldirish <img src="./images/VectorFile.png" alt=""></button>
+                </div>
+                <img src="./images/about-header.png" alt="bg" class="about-header_hero-img">
+            </div>
+        </div>
+        <div>
+            <p class="about-header_hero_text1">Soff iTga xush kelibsiz. Xizmat ?The main value of the onboarding process needs to serve, is to set initial expectations from the app, and to get the minimum information we need from the user in order to get started. I did this by showing a simple walkthrough and</p>
+            <p class="about-header_hero_text2">It’s hard to believe that the year is coming to an end. We are all hoping for a better and brighter 2022, and designers are getting us closer to that ideal right now with all the mobile app designs they’ve released recently. This quarter we’ve kept our eyes open for the best designs, and the apps we found certainly didn’t disappoint. Let’s jump right in</p>
+        </div>
+       
+        <h2 class="galery">Gallery</h2>
+    </header>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./images/swiper1.png" alt="" class="swipeSlide"></div>
+          <div class="swiper-slide"><img src="./images/swiper1.png" alt="" class="swipeSlide"></div>
+          <div class="swiper-slide"><img src="./images/swiper1.png" alt="" class="swipeSlide"></div>
+          <div class="swiper-slide"><img src="./images/swiper1.png" alt="" class="swipeSlide"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>    
+      
+      <hr class="horizontal">
+      <div class="container">
+        <div class="footer">
+            <form>
+                <label >Savollar bo’lsa jo’natishingiz mumkin</label>
+                <input type="email" placeholder="Email-com">
+                <input type="number" placeholder="Phone number">
+                <input type="text" placeholder="Savolingizni yozing">
+                <button style="display: flex; gap: 5px;">Jo'natish <img src="./images/VectorRight.png" alt=""></button>
+            </form>
+            <div class="footer-links">
+                <div class="serv">
+                    <ul>
+                        <li><a href="#">Services</a></li>
+                        <li><p>Web design</p></li>
+                        <li><p>App design</p></li>
+                        <li><p>Frontend</p></li>
+                    </ul>
+                </div>
+        
+                <div class="port">
+                    <ul>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><p>iMan invest</p></li>
+                        <li><p>Izma crm</p></li>
+                        <li><p>Airbnb</p></li>
+                    </ul>
+                </div>
+        
+                <div class="abo">
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><p>About us</p></li>
+                        <li><p>Bla bla bla </p></li>
+                        <li><p>Togga go</p></li>
+                    </ul>
+                </div>
+        
+                <div class="port">
+                    <ul>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><p>iMan invest</p></li>
+                        <li><p>Izma crm</p></li>
+                        <li><p>Airbnb</p></li>
+                    </ul>
+                </div>
+        
+                <div class="lab">
+                    <ul>
+                        <li><a href="#">Label</a></li>
+                        <li><p>Telegram </p></li>
+                        <li><p>Instagram</p></li>
+                        <li><p>Facebook </p></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        <h2>2022 Naturality Digital. All rights reseved</h2>
+    </div>
+    
+    <script src="./main.js"></script>
+    <!-- Initialize Swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 2,
+      spaceBetween: 800,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+</script>
+</body>
+</html>
